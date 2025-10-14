@@ -1,2 +1,4 @@
-BOT_TOKEN = "8335733549:AAFMpqifzGVVAPb_IeTpWMy8IhvSiTZEsuo"
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 DB_PATH = "cooknet.db"
